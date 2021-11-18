@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ODP-SDK'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Inpixon ODP-SDK.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   #s.source_files = 'ODP-SDK/Classes/**/*'
   s.platform = :ios, '9.0'
   s.source_files = 'ODP-SDK/Classes/*.{h,m}'
-  s.vendored_frameworks = 'ODP-SDK/Frameworks/*.framework'
+  s.vendored_frameworks = 'ODP-SDK/Frameworks/extend.framework'
   
   # s.resource_bundles = {
   #   'ODP-SDK' => ['ODP-SDK/Assets/*.png']
